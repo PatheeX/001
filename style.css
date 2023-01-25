@@ -1,0 +1,99 @@
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 4s;
+    cursor: progress;
+
+}
+
+body {
+  border:0px 0px;
+  margin: 0px 0px;
+  background-color: black ;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+
+.B1 {
+  position: absolute;
+  left:80%;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #4CAF50;
+  cursor: grab;
+  height: 10px;
+  width: 20px;
+}
+
+.B1:hover {
+    background-color:green ;
+  color: white;
+
+}
+
+.B2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #ba0000;
+}
+.B2:hover {
+  background-color: red;
+  color: white;
+  cursor:crosshair;
+}
+
+.B3 {
+  height: 20px;
+  width: 40px;
+  background-color: cyan;
+  color: black;
+  cursor: progress;
+}
+
+.B3:hover {
+  background-color: #ba0000;
+}
+
+.main {
+  font-family: monospace;
+  font-style: bold;
+  font-size: 50px;
+  color: white;
+  position:relative;
+  text-align: center;
+
+}
+
+#particles-js canvas
+{
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+#particles-js 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+canvas
+{
+    display:block;
+    position: fixed;
+    z-index: -1;
+}
