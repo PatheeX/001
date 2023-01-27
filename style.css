@@ -1,16 +1,3 @@
-.button {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 4s;
-    cursor: progress;
-
-}
 
 body {
   border:0px 0px;
@@ -18,47 +5,6 @@ body {
   background-color: black ;
   background-size: fill;
   background-repeat: no-repeat;
-}
-
-
-.B1 {
-  position: absolute;
-  left:80%;
-  background-color: transparent;
-  color: black;
-  border: 2px solid #4CAF50;
-  cursor: grab;
-  height: 10px;
-  width: 20px;
-}
-
-.B1:hover {
-    background-color:green ;
-  color: white;
-
-}
-
-.B2 {
-    background-color: white;
-    color: black;
-    border: 2px solid #ba0000;
-}
-.B2:hover {
-  background-color: red;
-  color: white;
-  cursor:crosshair;
-}
-
-.B3 {
-  height: 20px;
-  width: 40px;
-  background-color: cyan;
-  color: black;
-  cursor: progress;
-}
-
-.B3:hover {
-  background-color: #ba0000;
 }
 
 .main {
@@ -97,3 +43,20 @@ canvas
     position: fixed;
     z-index: -1;
 }
+
+.btn{
+  background-color: transparent;
+  cursor:grab;
+  position: relative;
+  left: 33%;
+  top:80px
+}
+
+.gihiya{
+  width: 50%;
+  border: 2px solid red;
+  
+
+  
+}
+
